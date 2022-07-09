@@ -3,6 +3,7 @@ import './header.scss'
 import CTA from './CTA'
 import ME from '../../assets/me.png'
 import Social from './Social'
+import { BsFillCaretRightFill } from 'react-icons/bs'
 
 const Header = () => {
   return (
@@ -19,7 +20,7 @@ const Header = () => {
           <img src={ME} alt='me' />
         </div>
 
-        <a href='#contact' className='scroll__down'> Scroll Down</a>
+        <a href='#contact' className='scroll__down'> Scroll Down <BsFillCaretRightFill /><BsFillCaretRightFill /><BsFillCaretRightFill /></a>
       </div>
     </header>
   )

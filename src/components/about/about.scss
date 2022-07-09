@@ -58,6 +58,9 @@
 .about__card h5 {
   font-size: 0.95rem;
 }
+.about__card h6 {
+  color: var(--color-light);
+}
 
 .about__card small {
   font-size: 0.7rem;
@@ -66,7 +69,9 @@
 
 .about__content p {
   margin: 2rem 0 2.6rem;
+  padding: 1rem;
   color: var(--color-light);
+  background: var(--color-bg-variant)
 }
 
 /*MEDIA QUERIES (MEDIUM DEVICES)*/

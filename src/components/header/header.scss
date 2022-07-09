@@ -56,12 +56,13 @@ header {
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
+  color: yellow;
 }
 
 /*MEDIA QUERIES (MEDIUM DEVICES)*/
 @media screen and (max-width: 1024px){
   header {
-    height: 68vh;
+    height: 100vh;
   }
 }
 
